@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Humans of Web3 – Hacker House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #6366f1;
+        border-radius: 9999px;
+      }
+    </style>
+
+    <!-- Background Audio -->
+    <audio id="bgAudio" loop>
+      <source src="https://github.com/metadatalabs/static-assets/raw/main/audio/meru-rohne-main-version-03-40-28009.mp3" type="audio/mpeg">
+    </audio>
+  </head>
+
+  <body
+    onclick="document.getElementById('bgAudio').play(); this.onclick=null;"
+    class="min-h-screen bg-black text-white flex justify-center items-start"
+    style="
+      background-image: url('https://uploads-ssl.webflow.com/617a2c064720870e9f9a5863/64503533a312aa2ec2c731dd_fdgdgdg.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    "
+  >
+    <!-- Phone frame -->
+    <main
+      class="w-[420px] max-w-full mt-6 mb-12 rounded-[3rem] overflow-hidden border-[3px] border-indigo-400/60 bg-gradient-to-b from-[#050b1f]/90 to-[#020617]/95 backdrop-blur shadow-[0_0_60px_rgba(99,102,241,0.3)]"
+    >
+      <!-- Camera notch -->
+      <div class="flex justify-center pt-3 pb-2">
+        <div class="w-3 h-3 rounded-full bg-indigo-900 border border-indigo-500/50 shadow-inner"></div>
+      </div>
+
+      <!-- Header / YouTube -->
+      <section class="p-4 pt-0">
+        <p class="text-base text-indigo-300 mb-2 font-mono text-center">
+          Welcome to The Hacker House
+        </p>
+
+        <div class="aspect-video rounded-lg overflow-hidden border border-indigo-500/30">
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/-uDG5vCplGk"
+            title="Humans of Web3"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <h1 class="mt-4 text-3xl font-bold tracking-tight text-center">
+          humansofweb3.sol
+        </h1>
+
+        <p class="mt-3 text-lg text-indigo-100/80 leading-relaxed">
+          Experience the dynamic world of web3 through
+          <span class="text-indigo-300 font-semibold">humansofweb3.sol</span>,
+          an engaging documentary that delves into the Solana ecosystem and its
+          passionate community.
+        </p>
+      </section>
+
+      <!-- NFT Section -->
+      <section class="px-4 mt-6">
+        <h2 class="text-xl text-indigo-400 font-semibold mb-3 text-center">
+          The Hacker House NFT
+        </h2>
+
+        <div class="rounded-lg overflow-hidden border border-indigo-500/30 bg-black">
+          <iframe
+            src="https://prnth.com/moviemaker/nft/willsolanamakeit/4/"
+            class="w-full h-[280px]"
+            frameborder="0"
+          ></iframe>
+        </div>
+
+        <p class="text-sm text-center text-indigo-300/60 mt-2">
+          try the interactive NFT ↑
+        </p>
+
+        <!-- Thumbnails -->
+        <div class="grid grid-cols-3 gap-2 mt-4">
+          <img
+            src="https://i.imgur.com/oWDsiLc.gif"
+            class="rounded-md border border-indigo-500/30"
+          />
+          <img
+            src="https://i.imgur.com/TzCO97k.gif"
+            class="rounded-md border border-indigo-500/30"
+          />
+          <img
+            src="https://i.imgur.com/Ik4ghOa.gif"
+            class="rounded-md border border-indigo-500/30"
+          />
+        </div>
+      </section>
+
+      <!-- Mint CTA -->
+      <section class="px-4 mt-6">
+        <a
+          href="https://exchange.art/editions/EW6t9a1jqjSihNuGV1s1xB94BMhfqqMABSdtG9F6Cn9H"
+          target="_blank"
+          class="flex items-center justify-center gap-2 w-full rounded-full bg-indigo-600 hover:bg-indigo-500 transition py-3 font-semibold"
+        >
+          Mint Commemorative NFT
+        </a>
+
+        <p class="mt-3 text-base text-center text-indigo-200/70 leading-relaxed">
+          An interactive collectible experience to commemorate the years of
+          chewing glass and building the Solana ecosystem into a vibrant
+          community.
+        </p>
+      </section>
+
+      <!-- Team -->
+      <section class="px-4 mt-8 mb-6">
+        <h3
+          class="text-center text-lg tracking-widest uppercase text-indigo-300 mb-4"
+        >
+          the team
+        </h3>
+
+        <div class="flex justify-around">
+          <!-- Estha -->
+          <a
+            href="https://twitter.com/esthadolphin"
+            target="_blank"
+            class="flex flex-col items-center gap-2"
+          >
+            <img
+              src="https://github.com/metadatalabs/static-assets/blob/main/images/pfp3.png?raw=true"
+              class="w-12 h-12 rounded-full border border-indigo-500/40"
+            />
+            <span class="text-sm text-indigo-200">@esthadolphin</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-indigo-900">
+              Editor
+            </span>
+          </a>
+
+          <!-- Salman -->
+          <a
+            href="https://twitter.com/salmanneedsajob"
+            target="_blank"
+            class="flex flex-col items-center gap-2"
+          >
+            <img
+              src="https://github.com/metadatalabs/static-assets/blob/main/images/pfp1.png?raw=true"
+              class="w-12 h-12 rounded-full border border-indigo-500/40"
+            />
+            <span class="text-sm text-indigo-200">@salmanneedsajob</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-indigo-900">
+              Creator
+            </span>
+          </a>
+
+          <!-- Prnth -->
+          <a
+            href="https://twitter.com/prnth_"
+            target="_blank"
+            class="flex flex-col items-center gap-2"
+          >
+            <img
+              src="https://github.com/metadatalabs/static-assets/blob/main/images/pfp2.png?raw=true"
+              class="w-12 h-12 rounded-full border border-indigo-500/40"
+            />
+            <span class="text-sm text-indigo-200">@prnth_</span>
+            <span class="text-xs px-2 py-0.5 rounded bg-indigo-900">
+              NFT Artist
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
